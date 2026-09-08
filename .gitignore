@@ -1,0 +1,23 @@
+# Nuxt / Nitro build output
+.output/
+.nuxt/
+.data/
+.cache/
+
+# Node / Bun
+node_modules/
+dist
+
+# Env
+.env
+.env.*
+!.env.sample
+
+# Misc
+.DS_Store
+data/
+tmp/
+coverage/
+
+# Local Construct builder artifacts (chat history, agent logs)
+.construct/

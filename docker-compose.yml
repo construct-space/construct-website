@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:80"
+    env_file: .env
+    environment:
+      NITRO_PORT: "80"
+      HOST: "0.0.0.0"
+      # Override per-environment in real deploys.
+      NUXT_PUBLIC_SITE_URL: "${NUXT_PUBLIC_SITE_URL:-https://lisaos.dev}"
+    restart: unless-stopped

@@ -1,0 +1,23 @@
+.git
+.gitignore
+.env
+.env.*
+!.env.sample
+.DS_Store
+node_modules
+.output
+.nuxt
+.data
+.cache
+data
+coverage
+tmp
+
+# Legacy directories — kept out of build context after migration is
+# committed but the dirs may linger during transition.
+ui/
+internal/
+web/
+main.go
+go.mod
+go.sum

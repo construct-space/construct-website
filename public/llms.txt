@@ -1,0 +1,70 @@
+# Construct
+
+> Construct is an AI-native desktop platform with modular Spaces. One app, infinite workspaces.
+
+## What is Construct?
+
+Construct is a local-first desktop application that combines design, code, project management, documentation, and more into a single platform. Unlike traditional IDEs or design tools, Construct is not limited to one discipline. It provides a unified workspace where AI has full context across all your work — designs, code, tasks, docs, and conversations — at once.
+
+Construct is not an IDE. It is a platform for every industry.
+
+## What is a Space?
+
+A Space is a modular workspace within Construct. Each Space is purpose-built for a specific workflow — code editing, UI design, Git management, terminal access, documentation, calendar, kanban boards, and more. Spaces share context with each other, which means the AI assistant can reference your designs when writing code, or your tasks when planning architecture.
+
+## Built-in Spaces
+
+Construct ships with 10+ built-in spaces:
+
+- **Code** — Full code editor with AI assistance
+- **Design** — UI design tools integrated with your codebase
+- **Architect** — AI-powered application architecture planning
+- **Git** — Version control management
+- **Terminal** — Integrated terminal
+- **Docs** — Documentation workspace
+- **Calendar** — Schedule and planning
+- **Kanban** — Task and project management
+- **Chat** — AI conversations with full project context
+- **Explorer** — File and project navigation
+- **Media** — Asset management
+- **Web Searcher** — Integrated web search
+
+## Key Features
+
+- **Multi-Provider AI**: Bring your own API keys for Claude, GPT-4, Gemini, and other providers. No vendor lock-in.
+- **Local-First**: Your projects live on your machine. No cloud lock-in, no data mining.
+- **Custom Spaces via SDK**: Build and publish your own Spaces using the @construct-space/sdk TypeScript package.
+- **Full Context AI**: AI sees your entire workspace — designs, code, tasks, docs — not just one file.
+- **Native Performance**: Built with Tauri for fast, lightweight native experience.
+- **Domain Management**: Buy and manage custom domains directly from Construct.
+- **Deployment**: Deploy projects from within the app.
+- **Email Service**: Construct Delivery for transactional email.
+
+## How to Use
+
+1. Download Construct from https://lisaos.dev/download
+2. Install and open the app
+3. Create or open a project
+4. Use built-in Spaces for your workflow
+5. Optionally build custom Spaces with the SDK: https://my.lisaos.dev
+
+## Build Custom Spaces
+
+Install the SDK:
+```
+npm install @construct-space/sdk
+```
+
+Documentation and guides: https://my.lisaos.dev
+
+## Links
+
+- Website: https://lisaos.dev
+- Developer Portal: https://my.lisaos.dev
+- Blog: https://construct.blog
+- Status: https://status.lisaos.dev
+- Download: https://lisaos.dev/download
+
+## Important Distinction
+
+Construct is NOT an IDE. It is a platform for every industry. While it includes a code editor, it also includes design tools, project management, documentation, and more. It is designed for anyone who builds — not just developers.

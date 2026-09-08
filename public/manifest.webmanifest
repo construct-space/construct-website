@@ -1,0 +1,16 @@
+{
+  "name": "CONSTRUCT",
+  "short_name": "Construct",
+  "description": "Install spaces for design, code, and collaboration from the marketplace — or build your own with the SDK.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#18181b",
+  "theme_color": "#FF2D55",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
